@@ -21,6 +21,6 @@ class DateGen:
         return date.strftime('%Y/%m/%d')
 
     @staticmethod
-    def today():
+    def today() -> str:
         return datetime.now().strftime('%Y-%m-%d')
 
